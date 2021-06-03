@@ -1,9 +1,146 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yayat Hidayat</title>
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/responsive.css">
 </head>
 <body>
-<h1> Uji coba </h1>
-  
-<h1> Uji coba ahh </h1>
+    <header id="header">
+        <img class="header-left">
+            <img src="public/img/LogoYthYayat.svg" alt="YTH" class="logo">
+        </div>
+        <div class="header-right">
+            <ul>
+                <li class="head-btn">About Me</li>
+                <li class="head-btn">Skill</li>
+                <li class="head-btn">Education</li>
+                <li class="head-btn">Experience</li>
+                <li>
+                    <div class="toggle">
+                        <div class="circle"></div>
+                        <img src="public/img/sun-solid.svg">
+                        <img src="public/img/moon-solid.svg">
+                    </div>
+                </li>
+            </ul>
+            <div class="bread">
+                <img src="public/img/menu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="greet">
+            <span>Yayat Hidayat</span>
+            <span>Gabut Developer</span>
+            <div class="greet-arrow">
+                <div class="arrow-body"></div>
+                <div class="arrow-head">
+                    <img src="public/img/arrowDown.svg">
+                </div>
+            </div>
+        </div>
+        <h2>About Me</h2>
+        <div class="about container">
+            <img src="public/img/ythFace.png">
+            <p>"A guy with interest in code and web applications development."</p>
+        </div>
+        <div class="arrow-body"></div>
+        <div class="arrow-head">
+            <img src="public/img/arrowDown.svg">
+        </div>
+        <h2>Skill</h2>
+        <div class="skill container">
+            <div class="skill-img">
+                <img class="" src="public/img/ythBack.png">
+                <img class="hidden" src="public/img/ythFront.png">
+                <img class="hidden" src="public/img/ythDesign.png">
+            </div>
+            <div class="btn-skill">
+                <span><img src="public/img/circle.svg" class="skill-btn skill-active"></span>
+                <span><img src="public/img/circle.svg" class="skill-btn"></span>
+                <span><img src="public/img/circle.svg" class="skill-btn"></span>
+            </div>
+            <div class="skill-description">
+                <div class="skill-item">
+                    <h3>BackEnd</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Springboot</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                    </ul>
+                    <p>"Security and resource management is a big thing in Backend"</p>
+                </div>
+                <div class="skill-item">
+                    <h3>FrontEnd</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS/SCSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>"FrontEnd is more than beautify display"</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Figma</li>
+                    </ul>
+                    <p>"You are the greates design"</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-body"></div>
+        <div class="arrow-head">
+            <img src="public/img/arrowDown.svg">
+        </div>
+        <h2>Education</h2>
+        <div class="education container">
+            <div class="education-item">
+                <div>
+                    <h3>SMA NEGERI 1 CILILIN</h3>
+                    <p>I learn anything in highschool. I love Chemistry. I have been a participant in the chemistry olympiad, but have not succeeded LOL. I joined an IT extracurricular and learned about basic video editing.</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div>
+                    <h3>Bootcamp Laravel Web Depelopment<br>Sanbercode</h3>
+                    <p>I learn about laravel like middleware, migration, MVC, Model, Eloquent and more. In my opinion artisan is the magic of laravel</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-body"></div>
+        <div class="arrow-head">
+            <img src="public/img/arrowDown.svg">
+        </div>
+        <h2>Experience</h2>
+        <div class="experience container">
+            <img src="public/img/ythExperienceCoding.png" alt="">
+            <img src="public/img/YthExperienceDesign.png" alt="">
+            <p>In 2019 I taught Logic and Algorithm and in 2020 I taught Data Structure using C programming language in both.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="form">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            <input type="button" value="Say Hai!">
+        </div>
+        <ul>
+            <li><a href="https://www.instagram.com/ythyayat_dev/"><img src="public/img/ig.svg"></a></li>
+            <li><a href="https://github.com/ythyayat"><img src="public/img/github.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/yayat-hidayat-62676817b/"><img src="public/img/linkedin.svg"></a></li>
+        </ul>
+    </footer>
+    <script src="public/script.js"></script>
 </body>
 </html>
